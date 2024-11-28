@@ -1,4 +1,6 @@
-﻿public class CoffeeMachine
+﻿using MoreObjectOrientedProgramming;
+
+public class CoffeeMachine
 {
     private readonly Container _coffeeGrainsContainer;
     private readonly Container _waterContainer;
@@ -7,8 +9,8 @@
 
     public CoffeeMachine(int grainContainerCapacity, int waterContainerCapacity)
     {
-        _coffeeGrainsContainer = new Container(grainContainerCapacity);
-        _waterContainer = new Container(waterContainerCapacity);
+        _coffeeGrainsContainer = new CoffeeGrainsContainer(grainContainerCapacity);
+        _waterContainer = new WaterContainer(waterContainerCapacity, true);
     }
 
     public void AddGrains(int amount) => _coffeeGrainsContainer.Add(amount);

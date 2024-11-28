@@ -1,4 +1,4 @@
-﻿var shinyNewCup = new Container(200);
+﻿var shinyNewCup = new Cup();
 shinyNewCup.Add(100);
 shinyNewCup.Add(150);
 shinyNewCup.Pour(130);

@@ -1,7 +1,7 @@
-﻿public class Container
+﻿public abstract class Container
 {
-    private readonly int _capacity;
-    private int _liquidLevel;
+    protected readonly int _capacity;
+    protected int _liquidLevel;
 
     public Container(int capacity)
     {
@@ -11,27 +11,25 @@
         _capacity = capacity;
     }
 
-    public void Add(int amount)
+    public virtual void Add(int amount)
     {
         if (amount < 0)
             throw new ArgumentException("Amount must not be negative", nameof(amount));
 
-        _liquidLevel += amount;
-
-        if (_liquidLevel > _capacity)
-            _liquidLevel = _capacity;
+        LiquidLevel += amount;
     }
 
-    public void Pour(int amount)
+    public virtual void Pour(int amount)
     {
         if (amount < 0)
             throw new ArgumentException("Amount must not be negative", nameof(amount));
 
-        _liquidLevel -= amount;
-
-        if (_liquidLevel < 0)
-            _liquidLevel = 0;
+        LiquidLevel -= amount;
     }
 
-    public int LiquidLevel => _liquidLevel;
+    public int LiquidLevel
+    {
+        get => _liquidLevel;
+        protected set => _liquidLevel = Math.Clamp(value, 0, _capacity);
+    }
 }
