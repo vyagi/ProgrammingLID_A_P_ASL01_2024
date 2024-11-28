@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automotive", "Automotive\Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automotive.Tests", "Automotive.Tests\Automotive.Tests.csproj", "{A08CD042-5490-4194-A746-80592D2894CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockSissorsPaper", "RockSissorsPaper\RockSissorsPaper.csproj", "{58F4197F-AFE2-462B-89D5-C3C946C3E6E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockSissorsPaper", "RockSissorsPaper\RockSissorsPaper.csproj", "{58F4197F-AFE2-462B-89D5-C3C946C3E6E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreObjectOrientedProgramming", "MoreObjectOrientedProgramming\MoreObjectOrientedProgramming.csproj", "{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreObjectOrientedProgramming", "MoreObjectOrientedProgramming\MoreObjectOrientedProgramming.csproj", "{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{71F68B93-7DA4-4061-95F7-B476B5D4050C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
