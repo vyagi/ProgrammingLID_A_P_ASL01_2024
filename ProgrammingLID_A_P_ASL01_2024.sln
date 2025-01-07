@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockSissorsPaper", "RockSis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreObjectOrientedProgramming", "MoreObjectOrientedProgramming\MoreObjectOrientedProgramming.csproj", "{D1E68556-FFE8-4AEF-90FE-C3BAAFAAFC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{71F68B93-7DA4-4061-95F7-B476B5D4050C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{71F68B93-7DA4-4061-95F7-B476B5D4050C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{D5F26954-AD5C-41A6-8473-E0B81E05720E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTests", "GeometryTests\GeometryTests.csproj", "{197EC797-B62C-4E7E-88BD-BBA9321C92A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{136D3801-473B-4277-8CC7-EF2377F2F4D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F68B93-7DA4-4061-95F7-B476B5D4050C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F26954-AD5C-41A6-8473-E0B81E05720E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F26954-AD5C-41A6-8473-E0B81E05720E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F26954-AD5C-41A6-8473-E0B81E05720E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F26954-AD5C-41A6-8473-E0B81E05720E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197EC797-B62C-4E7E-88BD-BBA9321C92A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197EC797-B62C-4E7E-88BD-BBA9321C92A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197EC797-B62C-4E7E-88BD-BBA9321C92A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197EC797-B62C-4E7E-88BD-BBA9321C92A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136D3801-473B-4277-8CC7-EF2377F2F4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136D3801-473B-4277-8CC7-EF2377F2F4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136D3801-473B-4277-8CC7-EF2377F2F4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136D3801-473B-4277-8CC7-EF2377F2F4D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
